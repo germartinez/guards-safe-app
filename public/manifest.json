@@ -1,0 +1,10 @@
+{
+  "short_name": "Transaction Guards",
+  "name": "Transaction Guards",
+  "description": "Add restrictions before and after your Safe transactions",
+  "iconPath": "secure_logo_black_bg_round.png",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
