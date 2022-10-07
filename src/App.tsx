@@ -6,7 +6,7 @@ import { HOME_PATHNAME } from './routes/routes'
 
 const App = () => {
   const isAnIframe = window.self !== window.top
-  console.log({isAnIframe})
+
   return (
     <BrowserRouter>
       <Header />
