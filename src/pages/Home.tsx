@@ -1,4 +1,5 @@
 import { Title } from '@gnosis.pm/safe-react-components'
+import TransactionGuard from 'src/components/TransactionGuard'
 import styled from 'styled-components'
 
 const Wrapper = styled.main`
@@ -9,7 +10,10 @@ const Wrapper = styled.main`
 const HomePage = () => {
   return (
     <Wrapper>
-      <Title size="md">HomePage</Title>
+      <Title size="xs">Enabled transaction guards</Title>
+      <TransactionGuard enabled />
+      <Title size="xs">Transaction guards</Title>
+      <TransactionGuard />
     </Wrapper>
   )
 }
